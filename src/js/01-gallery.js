@@ -14,7 +14,7 @@ console.log(galleryItems);
   </a>
 </div>*/
 
-//  --------- Gallery Container Selection ------ 
+//  --------- Get Link To Gallery Container------ 
 const container = document.querySelector(".gallery");
 
 // ======  event listener
@@ -30,7 +30,7 @@ function createGallery(object) {
             class="gallery__image"
             src=${el.preview}
             data-source=${el.original}
-            alt=${el.description}
+            alt='${el.description}'
         />
       </a>
     </div>`,
