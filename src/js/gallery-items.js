@@ -1,9 +1,9 @@
 export const galleryItems = [
   {
     preview:
-      'https://pixabay.com/get/g7db44fc58d9d35fb5b8da7664b7bad4f2a50cea6b119384ab39a8a881687d67f82dc1a7e35dc15af734160ce74143ae63fdbc1684fe099b2779e8cbab6064ab0_640.jpg',
+      'https://pixabay.com/get/gcc93e46be775fa06d8fe30da222e2f645f8ef603e31bbf6796ed1967c0179661299ee7a88ed3fa215d0fe899a11a50494b481631526f4610bddde9c59deace4e1006a1b08779bf134ef8d5051c4639f6_340.jpg',
     original:
-      'https://pixabay.com/get/gf802aba3d6b7ef3f231b37447013a653b19fbb26a1f3c79a12594483d040f9c884704948c0f1a4f8ac1a53e4b682c8b44d4be8692329d42bf8a9dbe5d84368fb_1280.jpg',
+      'https://pixabay.com/get/g361c83a9b2c4e02bab90a8a8848fdc9ad46f3b9853d88fc25352e2563a89f105ccbcb3159394ce624620a3972730a487b87589be3f054c216d76cbffc045aa1d8da0dda994431adba80baa131329d049_1280.jpg',
     description: 'Hokkaido Flower',
   },
   {
@@ -62,4 +62,8 @@ export const galleryItems = [
       'https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843_1280.jpg',
     description: 'Lighthouse Coast Sea',
   },
+
+
+
+  // 
 ];

@@ -14,6 +14,8 @@ console.log(galleryItems);
   </a>
 </div>*/
 
+
+
 const container = document.querySelector(".gallery");
 container.addEventListener("click", onClick);
 
