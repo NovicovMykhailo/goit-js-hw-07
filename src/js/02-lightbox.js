@@ -42,10 +42,13 @@ gallery.on("show.simplelightbox", function (event) {
             gallery.prev()
         }
     });
-    gallery.captionsData = "alt"
-    gallery.options.overlayOpacity = 1
+    gallery.options.captionsData = "alt"
+    gallery.options.captionDelay = 250
+    gallery.options.overlayOpacity = 0.1
+    gallery.options.showCounter =  false
 
     console.dir(gallery.captionsData)
+    console.dir(gallery)
    
 
 

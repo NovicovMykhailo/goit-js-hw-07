@@ -42,3 +42,18 @@
 .gallery__link:hover {
   cursor: zoom-in;
 }
+.sl-wrapper{ 
+ background-color: rgba(0, 0, 0,0.4);
+ backdrop-filter: blur(3px);
+ backdrop-filter: brightness(50%);
+ outline: none;
+ border: none;
+
+}
+.sl-close, .sl-next, .sl-prev{
+  color: white !important
+}
+.sl-caption{
+  background: rgba(0,0,0,0.4) !important;
+  backdrop-filter: blur(2px);
+}
