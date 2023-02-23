@@ -2,6 +2,7 @@ import { galleryItems } from "./gallery-items.js";
 // Change code below this line
 
 console.log(galleryItems);
+// DOM Layout Template
 /*
 <div class="gallery__item">
   <a class="gallery__link" href=${el.original}>
@@ -15,10 +16,10 @@ console.log(galleryItems);
 </div>*/
 
 //  --------- Get Link To Gallery Container------ 
-const container = document.querySelector(".gallery");
+const containerEl = document.querySelector(".gallery");
 
 // ======  event listener
-container.addEventListener("click", onClick);
+containerEl.addEventListener("click", onClick);
 
 // ======  gallery layout function
 function createGallery(object) {
@@ -39,11 +40,13 @@ function createGallery(object) {
 
 // ======   inserting a layout into the DOM
 const createMackup = createGallery(galleryItems);
-container.insertAdjacentHTML("afterbegin", createMackup.slice(",").join(" "));
+containerEl.insertAdjacentHTML("afterbegin", createMackup.slice(",").join(" "));
 
-// ======   callback Functions
+// ======   callbacks
+
 function onClick(event) {
 	event.preventDefault();
+  // check for click on image
 	if (event.target.className !== "gallery__image") {
 		return;
 	}
