@@ -45,10 +45,12 @@ gallery.on("show.simplelightbox", function (event) {
     gallery.options.captionsData = "alt"
     gallery.options.captionDelay = 250
     gallery.options.overlayOpacity = 0.1
-    gallery.options.showCounter =  false
+    gallery.options.showCounter =  true
 
-    console.dir(gallery.captionsData)
-    console.dir(gallery)
+
+   
+    // console.dir(gallery.captionsData)
+    // console.dir(gallery)
    
 
 
